@@ -1,0 +1,106 @@
+Assalamualaikum wr,wb
+Selamat pagi,siang,sore,malam bu.
+===================================================================================================================
+FILE CLASS BERADA PADA FILE OUT > PRODUCTION > DataMahasiswa2_1
+FILE JAVA BERADA PADA FILE SRC.
+===================================================================================================================
+
+NAMA	: Muhammad febri andani
+NIM	: 191011400390
+KELAS	: 03 TPLM 003
+Projek	: Data mahasiswa 
+isi	:1.login sebagai mahasiswa
+	 2.login sebagai admin
+	 3.Keluar.
+
+isi Login Mahasiswa :
+	 1.TAMPILKAN DATA
+	 2.CARI DATA
+	 3.AKADEMIK
+	    1.KRS
+	    2.KHS
+
+isi Login admin : 
+	1. TAMPILKAN DATA
+	2. CARI DATA
+	3. AKADEMIK
+	4. TAMBAH DATA
+	5. DELETE DATA
+	6. PERBARUI DATA
+	7. INPUT MATA KULIAH BARU
+	8. INPUT NILAI TUGAS, UTS, UAS.
+	9. LOGOUT
+
+===================================================================================================================
+Berikut sedikit penjelasan program yang saya buat.
+===================================================================================================================
+1. Saat pertama kali program di jalankan di tampilkan menu login,
+yang dimana menunya ada 2 yaitu menu untuk mahasiswa dan menu untuk admin.
+yang dimana username dan password untuk Admin terdapat di database loginadmin.
+	admin 1 
+	-Nama : Abdul aziz
+	-Username : abdula
+	-Password : admin01
+	admin 2
+	-Nama : muhammad reza
+	-Username : reza12
+	-Password : admin02
+
+2. Untuk menu mahasiswa tidak memerlukan login, akan tetapi loginnya
+ketika kita mengakses menu akademik yang berisi krs dan khs.
+tujuan login tersebut untuk mengelompokkan setiap siswa terhadap nilai yang di peroleh dan juga matkulnya.
+Saya berikan disini 1 username dan password dari mahasiswa
+	Mahasiswa 1 
+	-Nama : Muhammad febri andani
+	-Username : 191011400390
+	-Password : 170300
+
+Saya membuat username dan password menggunakan nim dan tanggal lahir mahasiswa. Ketika admin input data baru mahasiswa,
+itu sudah termasuk akun baru juga, dan dapat di gunakan oleh mahasiswa tsb. untuk lebih lanjut bisa di cek di tabel loginmhs
+
+3. Menu tampilkan data berisi :
+-nim
+-nama
+-tanggalLahir
+-jurusan
+-angkatan
+-email
+-jeniskelamin
+-ipk
+
+4. Menu pencarian data berisi data yang ingin di cari dengan kata kuncinya : sedikit angka nim / sedikit huruf nama dan juga jurusan.
+
+5. Menu akademik berisi menu krs dan khs. Menu krs berisi :  
+-kode mata kuliah.
+-Nama mata kuliah.
+-Sks
+
+Menu KHS berisi :
+-inputan nilai mahasiswa uts tugas dan uas.
+
+6. Menu hapus data, hapus data menggunakan nim sebagai kata kuncinya, sebelum data benar" di hapus saya berikan konfirmasi dahulu
+jika y maka hapus data jika n kembali ke menu awal.
+
+7. Menu perbarui data berisi perbarui :
+-nama
+-jurusan
+-tanggal lahir
+-jenis kelamin
+-angkatan
+-email
+
+8. Menu input matkul / tambahkan matkul baru
+Masukan kode mata kuliah baru
+Masukan nama mata kuliah baru
+dan Sks baru
+
+9. Menu input nilai, yaitu menginput nilai tugas, uts, uas dari setiap matkul
+pertama harus masukan nim siswa dahulu, lalu kode mata kuliah agar bisa input nilainya
+
+
+Terimakasih.
+
+febriandani176@gmail.com
+source code saya dapat juga dilihat melalui github : https://github.com/febriandani?tab=repositories
+
+
