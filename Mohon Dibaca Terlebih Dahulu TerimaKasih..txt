@@ -1,5 +1,4 @@
-Assalamualaikum wr,wb
-Selamat pagi,siang,sore,malam bu.
+
 ===================================================================================================================
 FILE CLASS BERADA PADA FILE OUT > PRODUCTION > DataMahasiswa2_1
 FILE JAVA BERADA PADA FILE SRC.
@@ -7,7 +6,7 @@ FILE JAVA BERADA PADA FILE SRC.
 
 NAMA	: Muhammad febri andani
 NIM	: 191011400390
-KELAS	: 03 TPLM 003
+KELAS	: 04 TPLM 003
 Projek	: Data mahasiswa 
 isi	:1.login sebagai mahasiswa
 	 2.login sebagai admin
